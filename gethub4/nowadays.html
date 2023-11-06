@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 22px;
+      }
+
+      a {
+        font-style: italic;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      h2:last-of-type {
+        text-align: center;
+      }
+
+      .list-item-odd {
+        background-color: gray;
+        color: white;
+      }
+
+      .list-item-even {
+        background-color: rgb(224, 168, 168);
+        color: black;
+      }
+
+      ol li:nth-child(3):hover,
+      ol li:nth-child(5):hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      ol li:nth-child(4) {
+        background-color: rgb(0, 191, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Сьогодення Федорчука Івана Васильовича</h1>
+
+    <a href="./index.html">Назад на головну</a>
+
+    <h2>Мій типовий список покупок</h2>
+
+    <ul>
+      <li class="list-item-odd">Молочні продукти:
+        <ul>
+          <li class="list-item-odd">Молоко</li>
+          <li class="list-item-even">Сметана</li>
+          <li class="list-item-odd">Масло</li>
+        </ul>
+      </li>
+      <li class="list-item-even">Овочі:
+        <ul>
+          <li class="list-item-odd">Помідори</li>
+          <li class="list-item-even">Брокколі</li>
+          <li class="list-item-odd">Морква</li>
+        </ul>
+      </li>
+      <li class="list-item-odd">Хлібобулочні вироби:
+        <ul>
+          <li class="list-item-odd">Хліб</li>
+          <li class="list-item-even">Бублики</li>
+          <li class="list-item-odd">Булочки</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Мій улюблений десерт</h2>
+
+    <ol>
+      <li>Приготувати тісто:
+        <ol>
+          <li>Закинути 0.5 кг борошна</li>
+          <li>Додати 3 яйця</li>
+          <li class="list-item-third">Додати склянку молока</li>
+          <li class="list-item-fourth">Додати півсклянки цукру</li>
+          <li class="list-item-fifth">Перемішати</li>
+        </ol>
+      </li>
+      <li>Приготувати начинку:
+        <ol>
+          <li>Розігріти підсмажену цукру в сковороді.</li>
+          <li>Додати ягоди</li>
+          <li class="list-item-third">Додати лимонний сік</li>
+          <li class="list-item-fourth">Поварити до загущення</li>
+          <li>Зібрати десерт:
+            <ol>
+              <li class="list-item-fifth">Розкатати тісто</li>
+              <li>Розкласти начинку</li>
+              <li>Скрутити в рулон</li>
+              <li>Прирізати на порції</li>
+              <li>Печіть до золотистої корки</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </body>
+</html>
 
