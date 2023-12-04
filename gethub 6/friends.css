@@ -1,1 +1,105 @@
+table {
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+}
 
+thead {
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: 600;
+}
+
+th, td {
+    border: 2px solid #ddd; 
+    padding: 8px; 
+    text-align: center;
+}
+
+.data {
+    background-color: #19dcff; 
+    color: #6d2b2b;
+}
+
+td:last-of-type {
+    text-align: right;
+}
+
+
+thead {
+    text-align: center;
+}
+
+.data {
+    background-color: rgb(25, 220, 255);
+    color: rgb(109, 43, 43);
+}
+
+tr {
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.kyrsiv {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+thead {
+    text-align: center;
+    background-color: green;
+    font-weight: 600;
+}
+td:last-of-type{
+    text-align: right;
+}
+
+
+/* desktop */
+ @media (min-width: 992px) {
+    th {
+      font-size: 130%;
+    }
+  
+    td {
+      font-size: 120%;
+    }
+  }
+  
+  /* tablet */
+  @media (min-width: 768px) and (max-width: 992px) {
+    th {
+      font-size: 120%;
+    }
+  
+    td {
+      font-size: 110%;
+    }
+  }
+  
+  /* mobile */
+  @media (max-width: 768px) {
+    th {
+      font-size: 110%;
+    }
+  }
